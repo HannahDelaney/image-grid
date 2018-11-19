@@ -37,3 +37,35 @@ img {
   }
 
 }
+
+@media only screen and (min-width: 38em) {
+
+  .photo:first-child {
+    width: 100%;
+  }
+
+  .photo {
+    width: 33.33%;
+  }
+
+  .photo:last-child {
+    display: none;
+  }
+
+}
+
+@media only screen and (min-width: 60em) {
+
+  .photo:first-child {
+    width: 66.66%;
+  }
+
+  .photo {
+    width: 33.33%;
+  }
+
+  .photo:last-child {
+    display: block;
+  }
+
+}
