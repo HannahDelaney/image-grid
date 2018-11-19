@@ -16,8 +16,24 @@ html {
   box-sizing: inherit;
 }
 
-.photo img {
+section {
   display: flex;
   flex-wrap: wrap;
-  width: 100%
+}
+
+img {
+  width: 100%;
+  display: block;
+}
+
+@media only screen and (min-width: 25em) {
+
+  .photo:first-child {
+    width: 100%;
+  }
+
+  .photo {
+    width: 50%;
+  }
+
 }
